@@ -8,8 +8,8 @@
 import os, sys, time, datetime, re, threading, json, random, requests, hashlib, cookielib, uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'Sayyed Zakarya'
-__copyright = 'All rights reserved . Copyright  Sayyed Zakarya'
+__author__ = 'rana zuqwan'
+__copyright = 'All rights reserved . Copyright  rana zuqwan'
 os.system('termux-setup-storage')
 try:
     os.mkdir('/sdcard/ids')
@@ -34,10 +34,10 @@ logo = """
 \033[1;95m    / /  (  _  )|   ( (  _  )|    /    \ /  (  _  )
 \033[1;94m  / / ___| | | || |\ \| | | || |\ \    | |  | | | |
 \033[1;96m (_______)_) (_)( ) (_)_) (_)(_) (_)   (_)  (_) (_)v1.0
-\033[1;97m                /(                rana zuqwan                 
+\033[1;97m     rana           /(                rana zuqwan                 
 \033[1;94m               (__)                  
  \033[37;1m[\033[41;1m FACEBOOK ACCOUNT CLONING \033[00;1m\033[37;1m ]\n
- \033[32;1mCreator \033[37;1m: \033[33;1mSayyed-Zakarya
+ \033[32;1mCreator \033[37;1m: \033[33;1mranazuqwan
  \033[32;1mVersion \033[37;1m: \033[33;1m1.2
 """
 def reg():
@@ -570,7 +570,7 @@ def choice_crack():
     print logo
     print '\x1b[1;93m~~~~ Number pass cracking ~~~~\x1b[1;91m'
     print 47 * '-'
-    print '\x1b[1;92m[1] Awam id cloning'
+    print '\x1b[1;92m[1] public id cloning'
     print '\x1b[1;92m[2] followers cloning'
     print '\x1b[1;92m[3] File cloning'
     print '\x1b[1;92m[B] Back'
